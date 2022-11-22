@@ -15,7 +15,7 @@
 
   <br>
 
-  Terceiro projeto da turma SAP008 da Laboratoria - https:// 
+  Terceiro projeto da turma SAP008 da Laboratoria - https://andresavieira28.github.io/SAP008-social-network-Wanderlust/
   
 </div>
  <br>
