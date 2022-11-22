@@ -1,0 +1,42 @@
+
+.containerProfile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding: 1% 0% 10% 0%;
+}
+.photoCurrentUser{
+    border-radius: 50%;
+    width: 7%;
+    margin: 0% 0% 2% 0%;
+}
+.nameUserProfile{
+    color: rgba(0, 0, 0, 0.56);
+    margin: 0% 0% 1% 0%;
+}
+.nameUserLogado{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none none solid none;
+    border-width: 1px;
+    margin: 0% 0% 3% 0%;
+}
+.emailUserProfile{
+    color: rgba(0, 0, 0, 0.56);
+    margin: 0% 0% 1% 0%;
+    align-items: flex-start;
+}
+.emailUserLogado{
+    color: black;
+    border-left: 6px solid #e96f2c;
+    border-width: 5px;
+    margin: 0% 0% 3% 0%;
+}
+.constrution{
+    width: 5%;
+    margin: 2% 0% 0% 0%;
+}
