@@ -13,13 +13,13 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="height: 30px;"/> 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" style="height: 30px;"/>
 
-  <br>
+  <br><br>
 
-  Terceiro projeto da turma SAP008 da Laboratoria - https:// 
+Para acessar o site <a href='https://andresavieira28.github.io/SAP008-social-network-Wanderlust/'>clique aqui</a>!
   
 </div>
  <br>
-  <br>
+
 
 # Social-network 🏖️🏞️ Wanderlust ✈️
 
