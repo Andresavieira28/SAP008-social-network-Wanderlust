@@ -3,10 +3,11 @@ import register from './pages/register/register.js';
 import password from './pages/password/password.js';
 import about from './pages/about/about.js';
 import feed from './pages/feed/feed.js';
+import perfil from './pages/profile/profile.js';
 
 const main = document.querySelector('#root');
 
-const inicio = () => {
+const routes = () => {
   window.addEventListener('hashchange', () => {
     main.innerHTML = '';
     switch (window.location.hash) {
@@ -25,6 +26,9 @@ const inicio = () => {
       case '#feed':
         main.appendChild(feed());
         break;
+      case '#perfil':
+        main.appendChild(perfil());
+        break;
       default:
         main.appendChild(home());
     }
@@ -33,5 +37,5 @@ const inicio = () => {
 window.addEventListener('load', () => {
   window.location.hash = '';
   main.appendChild(home());
-  inicio();
+  routes();
 });

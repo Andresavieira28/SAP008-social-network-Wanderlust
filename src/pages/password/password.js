@@ -11,7 +11,7 @@ export default () => {
           <img class='logoPass' src="img/logoTranp.png" alt='Logo Wanderlust'>
         </p>
         <p class="titleSenha">
-          <h3 class="titleSenha">Vamos recuperar sua senha!</h3>
+          <h3 class="titleSenha">Vamos recuperar ou refinir sua senha!</h3>
         </p>
         <p>
           <input class="inputEmail" type="text" id="userEmail" placeholder="E-mail" value="">

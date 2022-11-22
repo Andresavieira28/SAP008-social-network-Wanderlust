@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable no-alert */
 /* eslint-disable no-console */
 import { app } from './configuration.js';
@@ -14,20 +15,20 @@ import {
   sendPasswordResetEmail,
 } from './firebase.js';
 
-const auth = getAuth(app);
+export const auth = getAuth(app);
 
-const logInUser = (email, password) => signInWithEmailAndPassword(auth, email, password);
+export const logInUser = (email, password) => signInWithEmailAndPassword(auth, email, password);
 
-const provider = new GoogleAuthProvider();
-const signInWithGoogle = () => signInWithPopup(auth, provider);
+export const provider = new GoogleAuthProvider();
+export const signInWithGoogle = () => signInWithPopup(auth, provider);
 
-const logOutUser = () => signOut(auth);
+export const logOutUser = () => signOut(auth);
 
-const createRegister = (email, password) => createUserWithEmailAndPassword(auth, email, password);
+export const createRegister = (email, password) => createUserWithEmailAndPassword(auth, email, password);
 
-const updateDisplayName = (user, displayName) => updateProfile(user, { displayName });
+export const updateDisplayName = (user, displayName) => updateProfile(user, { displayName });
 
-const resetPassword = (email) => sendPasswordResetEmail(auth, email);
+export const resetPassword = (email) => sendPasswordResetEmail(auth, email);
 
 function observerLogin() {
   return onAuthStateChanged(auth, (user) => {
@@ -39,13 +40,3 @@ function observerLogin() {
   });
 }
 observerLogin();
-
-export {
-  logInUser,
-  signInWithGoogle,
-  logOutUser,
-  createRegister,
-  updateDisplayName,
-  resetPassword,
-  observerLogin,
-};
